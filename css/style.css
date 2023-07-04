@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "Geologica";
+  src: url("../fonts/Geologica-Regular.ttf");
+}
+
+body {
+  background-color: white;
+  font-family: "Geologica", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.inicio {
+  margin-bottom: 20px;
+  padding: 50px;
+}
+
+video {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  z-index: 9999;
+}
+
+@media (max-width: 850px) {
+  .logo {
+    flex-direction: column;
+  }
+}
+
+#productos {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 30px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.product img {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.product h3 {
+  color: #333;
+  font-size: 20px;
+  margin: 0;
+}
+
+.product p {
+  color: #666;
+}
+
+footer {
+  background-color: #333
