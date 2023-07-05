@@ -1,3 +1,6 @@
+a {
+  text-decoration: none;
+}
 @font-face {
   font-family: "Geologica";
   src: url("../fonts/Geologica-Regular.ttf");
